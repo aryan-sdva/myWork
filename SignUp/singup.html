@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <img src="ucl.jpeg" alt="UCL logo"/>
+    </head>
+    <body>
+        <nav>
+            <a href="https://twitter.com/AryanSdva">Creator of this page!</a>
+        </nav>
+        <main>
+            <h1>Sign Up:</h1>
+            <form method="POST">
+                <video src="CocoSong.mp4" type="video.mp4" width="320" height="240" loop muted controls></video>
+                <audio src="BornToShine.mp3"  type="audio/mp3" loop controls></audio>
+                <fieldset id="size">
+                    <legend>Occupancy:</legend>
+                    <label>
+                        <input type="radio" value="2" name="size">2 People
+                        <input type="radio" value="4" name="size">4 People
+                </label>
+                </fieldset>
+                <fieldset id="location">
+                   <legend>Location:</legend>
+                    <label>
+                    <input type="radio" value="indoors" name="location">indoors
+                    <input type="radio" value="outdoors" name="location">outdoors
+                    <input type="number">
+                    0<input type="range" min="0" max="10">10
+                </label>
+                </fieldset>
+                <div>
+                    <label for="Date">Date:</label>
+                    <input type="date" id="Date" name="Date" required>
+                </div>
+                <button type="submit">Book Table</button>
+                <div>
+                    <label for="First Name">First Name</label><br>
+                    <input type="text" id="First Name" name="First Name" required>
+                </div>
+                <div>
+                    <label for="Second Name">Second Name</label><br>
+                    <input type="text" id="Last Name" name="Last Name" required>
+                </div>
+                <div>
+                    <label for="User Email">User Email</label><br>
+                    <input type="email" id="User email" name="User Email" required>
+                </div>
+                <div>
+                    <label for="Password">Password</label><br>
+                    <input type="password" id="Password" name="Password" required minlength="8">
+                </div>
+                <div>
+                    <label for="Confirm Password">Confirm Password</label><br>
+                    <input type="password" id="Confirm Password" name="Confirm Password" required> 
+                </div>
+                <div>
+                    <button type="submit">SignUp</button>
+                </div>
+                <style>
+                    input:focus:invalid{
+                        border: 2px solid red;
+
+                    }
+                </style>
+                <label for="teams">My Teams:</label><br>
+                <input list="teams" name="teams">
+                <datalist id="teams">
+                    <option value="Chelsea">
+                    <option value="Arsenal">
+                    <option value="Man City">
+                </datalist>   
+            </form>
+        </main>
+        <footer>Copyright: Aryan Sachdeva</footer>
+    </body>
+</html>
