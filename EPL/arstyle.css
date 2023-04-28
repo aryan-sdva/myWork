@@ -1,0 +1,23 @@
+h1{
+    color: white;
+    background-color: red;
+    font-family:"Courier New", monospace;
+    text-decoration: underline white solid 5px;
+    border-width: 10px;
+    border-style: double;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    color: white;
+    font-family: "Courier New", monospace ;
+    font-size: 25px;
+    font-style:oblique;
+}
+h2{
+    color: white;
+    background-color: red;
+}
+body{
+    background-color: rgb(204, 73, 73);
+}

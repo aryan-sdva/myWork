@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    background-color: cyan ;
+    font-family:"Courier New", monospace;
+    text-decoration: underline blue 5px;
+    border-width: 10px 10px 10px 10px;
+    border-style:double;
+    padding: 10px;
+    margin: 10px;   
+}
+h2{
+    color:white;
+    background-color: blue;
+}
+body{
+    background-color: lightblue;
+}
