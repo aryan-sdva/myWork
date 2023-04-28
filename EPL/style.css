@@ -1,0 +1,15 @@
+a:hover{
+    color: red;
+}
+.btn-primary{
+    color:black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+tr{
+    font-size: 25px;
+}
+.input-group-text{
+    font-size: 25px;
+}
